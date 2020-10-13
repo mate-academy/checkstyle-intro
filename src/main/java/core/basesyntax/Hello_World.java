@@ -4,7 +4,7 @@ import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
 import java.util.Objects;
 
-public class HelloWorld
+public class Hello_World
 {
     private String a;
     private int vARIaBLE;
