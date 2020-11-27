@@ -8,6 +8,7 @@ public class HelloWorld {
     private int variable;
     private int age;
     private int size;
+    private int length;
 
     public static void main(String[] args) {
         Dog dog = new Dog();
