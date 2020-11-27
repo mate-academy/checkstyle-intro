@@ -3,6 +3,7 @@ package core.basesyntax;
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 /* import java.util.Objects; */
+/* 2 try */
 
 public class HelloWorld {
     private String add;
