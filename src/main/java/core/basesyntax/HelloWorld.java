@@ -28,8 +28,8 @@ public class HelloWorld {
 
     private void sayHello(String hello) {
 
-        String one = "Hello, Mate! I am happy to see you! This class looks weird! ";
-        String two = "Your task is to fix the checkstyle in this file. ";
+        String one = "Hello, Mate! I am happy to see you! This class looks weird!";
+        String two = " Your task is to fix the checkstyle in this file. ";
         String three = " Your goal is to run `mvn clean package`";
         String four = " and receive `BUILD SUCCESS` message";
 
