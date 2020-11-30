@@ -25,11 +25,11 @@ public class HelloWorld {
     }
 
     private void sayHello(String hello) {
-        String s1 = "Hello, Mate! I am happy to see you! ";
-        String s2 = "This class looks weird! ";
-        String s3 = "Your task is to fix the checkstyle in this file.";
-        String s4 = " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message";
-        System.out.println(s1 + s2 + s3 + s4);
+        String m1 = "Hello, Mate! I am happy to see you! ";
+        String m2 = "This class looks weird! ";
+        String m3 = "Your task is to fix the checkstyle in this file.";
+        String m4 = " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message";
+        System.out.println(m1 + m2 + m3 + m4);
         System.out.println(hello);
     }
 }
