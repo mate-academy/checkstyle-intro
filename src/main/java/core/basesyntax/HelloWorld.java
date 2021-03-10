@@ -1,8 +1,8 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
-import java.util.Objects;
+
+import core.basesyntax.Model.Dog;
 
 public class Hello_World
 {
