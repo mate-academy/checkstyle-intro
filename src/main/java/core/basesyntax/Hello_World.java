@@ -7,7 +7,7 @@ import java.util.Objects;
 public class Hello_World
 {
     private String a;
-    private int vARIaBLE;
+    private int variable;
     private int age, size;
 
 
@@ -16,11 +16,14 @@ public class Hello_World
         Cat cat = new Cat(); }
 
     private String getFromOneToTen() {
-        String result="";
+        String result= "";
 
-        for (int i=0; i<10; i++){
-            if(i%2==0)
-             result = result + i + " ";
+        for (int i = 0; i < 10; i++) {
+            if ( i % 2 ==0) {
+                result += i + " ";
+
+            }
+
         }
         return result;
     }
