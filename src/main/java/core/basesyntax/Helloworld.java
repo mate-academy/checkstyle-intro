@@ -1,10 +1,10 @@
 package core.basesyntax;
 
-import corebasesyntax.model.Cat;
-import corebasesyntax.model.Dog;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 
 public class Helloworld {
-    private String aa;
+    private String str;
     private int vaRIable;
     private int age;
     private int size;
@@ -16,7 +16,7 @@ public class Helloworld {
 
     private String getFromOneToTen() {
         String result = "";
-        for (int i = 0;i < 10;i++) {
+        for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
                 result = result + i + " ";
             }
@@ -29,5 +29,6 @@ public class Helloworld {
                 + " Your task is to fix the checkstyle in this file."
                 + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(helLO);
+
     }
 }
