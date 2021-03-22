@@ -4,7 +4,7 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 
 public class HelloWorld {
-    private String ab;
+    private String name;
     private int variable;
     private int age;
     private int size;
