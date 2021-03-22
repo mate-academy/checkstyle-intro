@@ -4,6 +4,10 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 
 public class HelloWorld {
+    private String some;
+    private int variable;
+    private int age;
+    private int size;
 
     public static void main(String[] args) {
         Dog dog = new Dog();
