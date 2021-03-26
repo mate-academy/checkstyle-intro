@@ -1,8 +1,7 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Cat;
-import core.basesyntax.Model.Dog;
-
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 
 public class HelloWorld {
 
@@ -10,6 +9,9 @@ public class HelloWorld {
     private int variable;
     private int age;
     private int size;
+
+    public HelloWorld() {
+    }
 
     public static void main(String[] args) {
         Dog dog = new Dog();
