@@ -5,10 +5,10 @@ import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
-        String value;
-        int variable;
-        int age;
-        int size;
+    private String value;
+    private int variable;
+    private int age;
+    private int size;
     
     public static void main(String[] args) {
         Dog dog = new Dog();
