@@ -10,7 +10,7 @@ public class Cat {
         return "Cat{"
                 + "age=" + age
                 + ", name='" + name + '\''
-                + ", ownerName='" + ownerName+ '\''
+                + ", ownerName='" + ownerName + '\''
                 + '}';
     }
 }
