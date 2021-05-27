@@ -43,4 +43,3 @@ public class HelloWorld {
         System.out.println("The size is " + size);
     }
 }
-// mvn clean package
