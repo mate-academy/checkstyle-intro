@@ -2,14 +2,13 @@ package core.basesyntax;
 
 import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
-
 import java.time.LocalDate;
-import java.util.Objects;
 
 public class Hello_World {
-    private String a;
+    private String helloMates;
     private int variable;
-    private int age, size;
+    private int age;
+    private int size;
 
 
     public static void main(String[] args) {
@@ -18,24 +17,25 @@ public class Hello_World {
     }
 
     private String getFromOneToTen() {
-        String result = "";
-
+        StringBuilder result = new StringBuilder();
         for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0)
-                result = result + i + " ";
+            if (i % 2 == 0) {
+                result.append(i).append(" ");
+            }
         }
-        return result;
+        return result.toString();
     }
 
-    private void sayHello(String HELLO) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
-                " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println(HELLO);
+    private void sayHello(String hello) {
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! "
+                + " Your task is to fix the checkstyle in this file."
+                + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        System.out.println(hello);
     }
 
     private void initializeVariables() {
-        a = "Hello mates!";
-        System.out.println(a);
+        helloMates = "Hello mates!";
+        System.out.println(helloMates);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
