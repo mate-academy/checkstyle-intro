@@ -7,15 +7,16 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat{"
-                + "age="
-                + age
-                + ", name='"
-                + name
-                + '\''
-                + ", ownerName='"
-                + ownerName
-                + '\''
-                + '}';
+        return new StringBuilder()
+                .append("Cat{")
+                .append("age=")
+                .append(age)
+                .append(", name='")
+                .append(name)
+                .append('\'')
+                .append(", ownerName='")
+                .append(ownerName)
+                .append('\'')
+                .append('}').toString();
     }
 }
