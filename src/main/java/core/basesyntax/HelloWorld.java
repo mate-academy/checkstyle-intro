@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 public class HelloWorld {
     private String message;
-    private int variable;
+    private int date;
     private int age;
     private int size;
 
@@ -16,14 +16,14 @@ public class HelloWorld {
     }
 
     private String getFromOneToTen() {
-        String result = "";
+        StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                result = result + i + " ";
+                result.append(i).append(" ");
             }
         }
-        return result;
+        return result.toString();
     }
 
     private void sayHello(String hello) {
@@ -36,8 +36,8 @@ public class HelloWorld {
     private void initializeVariables() {
         message = "Hello mates!";
         System.out.println(message);
-        variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        date = LocalDate.now().getYear();
+        System.out.println("It is " + date + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
