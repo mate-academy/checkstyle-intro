@@ -2,7 +2,7 @@ package core.basesyntax.model;
 
 public class Cat {
     private int age;
-    private String name;
+    private String name = "lily";
     private String ownerName;
 
     @Override
@@ -13,4 +13,5 @@ public class Cat {
                 + ", ownerName='" + ownerName + '\''
                 + '}';
     }
+
 }
