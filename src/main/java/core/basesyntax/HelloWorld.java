@@ -28,10 +28,9 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        String a = "Hello mates!";
-        System.out.println(a);
-        int variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        System.out.println("Hello mates!");
+        int currentYear = LocalDate.now().getYear();
+        System.out.println("It is " + currentYear + "year");
         int age = 25;
         System.out.println("I'm " + age);
         int size = 42;
