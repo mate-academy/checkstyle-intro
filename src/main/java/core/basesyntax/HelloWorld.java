@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 public class HelloWorld {
     private String message;
-    private int date;
+    private int year;
     private int age;
     private int size;
 
