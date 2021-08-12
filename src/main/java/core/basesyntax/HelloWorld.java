@@ -36,8 +36,8 @@ public class HelloWorld {
     private void initializeVariables() {
         message = "Hello mates!";
         System.out.println(message);
-        date = LocalDate.now().getYear();
-        System.out.println("It is " + date + "year");
+        year = LocalDate.now().getYear();
+        System.out.println("It is " + year + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
