@@ -27,7 +27,7 @@ public class HelloWorld {
         System.out.println(hello);
     }
 
-    private void initializeVariables() {
+    public void initializeVariables() {
         System.out.println("Hello mates!");
         int currentYear = LocalDate.now().getYear();
         System.out.println("It is " + currentYear + "year");
