@@ -28,10 +28,8 @@ public class HelloWorld {
 
     private void sayHello(String hello) {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird! You"
-                           + "r task is to fix the  Your task is to fix the checkstyle in this 
-                           fil"
-                           + "e. Your goal is to run `mvn clean package` and receive `BUILD 
-                           SUCCESS` message");
+                           + "r task is to fix the  Your task is to fix the checkstyle in this fil"
+                           + "e. Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
