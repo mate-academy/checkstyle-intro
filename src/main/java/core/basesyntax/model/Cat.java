@@ -1,4 +1,4 @@
-package core.basesyntax.Model;
+package core.basesyntax.model;
 
 public class Cat {
     private int age;
@@ -10,7 +10,6 @@ public class Cat {
         return "Cat{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                '}';
+                ", ownerName='" + ownerName + '\'' + '}';
     }
 }
