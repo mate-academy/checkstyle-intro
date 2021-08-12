@@ -29,10 +29,10 @@ public class HelloWorld {
 
     private void sayHello(String hello) {
         StringBuilder mes = new StringBuilder();
-        String me1 = "Hello, Mate! ";
-        String me2 = "I am happy to see you! ";
-        String me3 = "This class looks weird! ";
-        String me4 = "Your task is to fix the checkstyle in this file.";
+        String message = "Hello, Mate! "
+        		+ "I am happy to see you! ";
+        		+ "This class looks weird! ";
+        		+ "Your task is to fix the checkstyle in this file.";
         System.out.println(me1 + me2 + me3 + me4);
         String mes2;
         mes2 = "Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message";
