@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 public class HelloWorld {
     private String greeting;
-    private int variable;
+    private int presentYear;
     private int age;
     private int size;
 
@@ -27,18 +27,18 @@ public class HelloWorld {
     }
 
     private void sayHello(String helloMe) {
-        String one = "Hello, Mate! I am happy to see you! This class looks weird! ";
-        one = one + "Your task is to fix the checkstyle in this file.";
-        String two = " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message";
-        System.out.println(one + two);
+        String firstPart = "Hello, Mate! I am happy to see you! This class looks weird! ";
+        firstPart = firstPart + "Your task is to fix the checkstyle in this file. Your goal is to";
+        String outputStriing = " run `mvn clean package` and receive `BUILD SUCCESS` message";
+        System.out.println(firstPart + outputStriing);
         System.out.println(helloMe);
     }
 
     private void initializeVariables() {
         greeting = "Hello mates!";
         System.out.println(greeting);
-        variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        presentYear = LocalDate.now().getYear();
+        System.out.println("It is " + presentYear + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
