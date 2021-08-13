@@ -27,17 +27,17 @@ public class HelloWorld {
 
     private void sayHello(String hello) {
         StringBuilder stringBuilder = new StringBuilder();
-        textWeWantToDisplay.append("Hello, Mate! I am happy to see you! This class looks weird! ");
-        textWeWantToDisplay.append("Your task is to fix the checkstyle in this file.");
-        textWeWantToDisplay.append("Your goal is to run `mvn clean package`");
-        textWeWantToDisplay.append(" and receive `BUILD SUCCESS` message");
-        System.out.println(textWeWantToDisplay);
+        stringBuilder.append("Hello, Mate! I am happy to see you! This class looks weird! ");
+        stringBuilder.append("Your task is to fix the checkstyle in this file.");
+        stringBuilder.append("Your goal is to run `mvn clean package`");
+        stringBuilder.append(" and receive `BUILD SUCCESS` message");
+        System.out.println(stringBuilder);
         System.out.println(hello);
     }
 
     private void initializeVariables() {
-        textToDesplay = "Hello mates!";
-        System.out.println(textToDesplay);
+        greeting = "Hello mates!";
+        System.out.println(greeting);
         actualYear = LocalDate.now().getYear();
         System.out.println("It is " + actualYear + "year");
         age = 25;
