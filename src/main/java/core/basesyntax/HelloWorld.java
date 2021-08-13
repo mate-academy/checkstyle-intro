@@ -5,7 +5,7 @@ import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
-    private String greeting = "";
+    private String greeting;
     private int year;
     private int age;
     private int size;
