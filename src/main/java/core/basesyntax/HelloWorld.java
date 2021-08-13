@@ -26,7 +26,7 @@ public class HelloWorld {
     }
 
     private void sayHello(String hello) {
-        StringBuilder textWeWantToDisplay = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         textWeWantToDisplay.append("Hello, Mate! I am happy to see you! This class looks weird! ");
         textWeWantToDisplay.append("Your task is to fix the checkstyle in this file.");
         textWeWantToDisplay.append("Your goal is to run `mvn clean package`");
