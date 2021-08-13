@@ -16,14 +16,15 @@ public class HelloWorld {
     }
 
     private String getFromOneToTen() {
-        String result = "";
+        StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                result = result + i + " ";
+                result.append(i).append(" ");
             }
         }
-        return result;
+
+        return result.toString();
     }
 
     private void sayHello(String helloMessage) {
