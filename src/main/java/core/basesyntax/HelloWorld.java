@@ -40,8 +40,8 @@ public class HelloWorld {
     private void initializeVariables() {
         message = "Hello mates!";
         System.out.println(message);
-        todayDate = LocalDate.now().getYear();
-        System.out.println("It is " + todayDate + "year");
+        year = LocalDate.now().getYear();
+        System.out.println("It is " + year + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
