@@ -26,12 +26,12 @@ public class HelloWorld {
         return result;
     }
 
-    private void sayHello(String helloMe) {
+    private void sayHello(String helloMessage) {
         String outputString = "Hello, Mate! I am happy to see you! This class looks weird! "
                 + "Your task is to fix the checkstyle in this file. Your goal is to"
                 + " run `mvn clean package` and receive `BUILD SUCCESS` message";
         System.out.println(outputString);
-        System.out.println(helloMe);
+        System.out.println(helloMessage);
     }
 
     private void initializeVariables() {
