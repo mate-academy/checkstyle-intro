@@ -1,4 +1,4 @@
-package core.basesyntax;
+package core.basesyntex;
 
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
