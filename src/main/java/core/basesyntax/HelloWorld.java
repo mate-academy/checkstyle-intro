@@ -28,9 +28,9 @@ public class HelloWorld {
 
     private void sayHello(String hello) {
         String message = "Hello, Mate! "
-        		+ "I am happy to see you! "
-        		+ "This class looks weird! "
-        		+ "Your task is to fix the checkstyle in this file.";
+                + "I am happy to see you! "
+                + "This class looks weird! "
+                + "Your task is to fix the checkstyle in this file.";
         String goalMessage;
         goalMessage = "Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message";
         System.out.println(goalMessage);
