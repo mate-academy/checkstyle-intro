@@ -1,10 +1,8 @@
 package core.basesyntax;
 
-import java.time.LocalDate;
-import java.util.Objects;
-
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
+import java.time.LocalDate;
 
 public class HelloWorld {
     private String hey;
@@ -20,9 +18,9 @@ public class HelloWorld {
     private String getFromOneToTen() {
         String result = "";
 
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-             result = result + i + " ";
+                result = result + i + " ";
             }
         }
         return result;
@@ -36,7 +34,7 @@ public class HelloWorld {
 
     private void initializeVariables() {
         hey = "Hello mates!";
-        System.out.println(a);
+        System.out.println(hey);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
