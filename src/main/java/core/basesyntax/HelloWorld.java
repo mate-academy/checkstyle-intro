@@ -33,8 +33,8 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        String str = "Hello mates!";
-        System.out.println(str);
+        String greeting = "Hello mates!";
+        System.out.println(greeting);
         int currentYear = LocalDate.now().getYear();
         System.out.println("It is " + currentYear + "year");
         int age = 25;
