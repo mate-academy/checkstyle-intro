@@ -33,7 +33,7 @@ public class HelloWorld {
         System.out.println(hello);
     }
 
-    private void initializeVariables() {
+    private void initializeGreetings() {
         greetings = "hello mates";
         System.out.println(greetings);
         date = LocalDate.now().getYear();
