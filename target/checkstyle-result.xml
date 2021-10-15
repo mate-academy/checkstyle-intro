@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/Users/drossel/IdeaProjects/checkstyle-intro/src/main/java/core/basesyntax/HelloWorld.java">
+</file>
+<file name="/Users/drossel/IdeaProjects/checkstyle-intro/src/main/java/core/basesyntax/model/Cat.java">
+</file>
+<file name="/Users/drossel/IdeaProjects/checkstyle-intro/src/main/java/core/basesyntax/model/Dog.java">
+</file>
+</checkstyle>
