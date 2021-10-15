@@ -5,7 +5,7 @@ import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
-    private String helloMassage;
+    private String helloMessage;
     private int year;
     private int age;
     private int size;
@@ -35,8 +35,8 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        helloMassage = "Hello mates!";
-        System.out.println(helloMassage);
+        helloMessage = "Hello mates!";
+        System.out.println(helloMessage);
         year = LocalDate.now().getYear();
         System.out.println("It is " + year + "year");
         age = 25;
