@@ -34,7 +34,7 @@ public class Animals {
     }
 
     private void initializeVariables() {
-        String hello = "Hello mates!";
+        hello = "Hello mates!";
         System.out.println(hello);
         date = LocalDate.now().getYear();
         System.out.println("It is " + date + "year");
