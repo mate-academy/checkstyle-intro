@@ -4,10 +4,9 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class HelloWorld {
-    private static final String hello = "Hello world";
-    private String report;
-    private int variable;
+public class Animals {
+    private String hello;
+    private int date;
     private int age;
     private int size;
 
@@ -36,9 +35,9 @@ public class HelloWorld {
 
     private void initializeVariables() {
         String a = "Hello mates!";
-        System.out.println(report);
-        variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        System.out.println(hello);
+        date = LocalDate.now().getYear();
+        System.out.println("It is " + date + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
