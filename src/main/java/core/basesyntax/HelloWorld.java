@@ -2,7 +2,6 @@ package core.basesyntax;
 
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
-
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -14,7 +13,6 @@ public class HelloWorld {
 
     private String getFromOneToTen() {
         StringBuilder result = new StringBuilder();
-
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
                 result.append(i).append(" ");
