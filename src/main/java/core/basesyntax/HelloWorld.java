@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 public class HelloWorld {
 
-    private String aa;
+    private String message;
     private int variable;
     private int size;
     private int age;
@@ -35,8 +35,8 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        aa = "Hello mates!";
-        System.out.println(aa);
+        message = "Hello mates!";
+        System.out.println(message);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
