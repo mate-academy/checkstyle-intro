@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-import core.basesyntax.model.Cat;
-import core.basesyntax.model.Dog;
+import core.basesyntax.model.*;
+
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -12,6 +12,15 @@ public class HelloWorld {
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Truck truck = new Truck();
+        Bulldozer bulldozer = new Bulldozer();
+        Excavator excavator = new Excavator();
+        Machine[] machineArray = {truck, bulldozer, excavator};
+
+        for (Machine m : machineArray) {
+            m.doWork();
+            m.stopWork();
+        }
     }
 
     private String getFromOneToTen() {
