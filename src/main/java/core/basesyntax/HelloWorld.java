@@ -6,9 +6,10 @@ import core.basesyntax.model.Cat;
 import java.time.LocalDate;
 
 public class HelloWorld {
-    private String a;
+    private String helloMate;
     private int vARIaBLE;
-    private int age, size;
+    private int age;
+    private int size;
 
 
     public static void main(String[] args) {
@@ -33,8 +34,8 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        a = "Hello mates!";
-        System.out.println(a);
+        helloMate = "Hello mates!";
+        System.out.println(helloMate);
         vARIaBLE = LocalDate.now().getYear();
         System.out.println("It is " + vARIaBLE + "year");
         age = 25;
