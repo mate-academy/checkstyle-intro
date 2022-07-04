@@ -1,1 +1,1 @@
-# Checkstyle intro
+# Implement fixed checkstyle mistakes  
