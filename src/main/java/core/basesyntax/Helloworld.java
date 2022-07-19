@@ -3,7 +3,6 @@ package core.basesyntax;
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
-//import java.util.Objects; //Unused import
 
 public class Helloworld {
     private String sigh;
