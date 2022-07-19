@@ -4,7 +4,7 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class Helloworld {
+public class HelloWorld {
     private String string;
     private int variable;
     private int age;
@@ -27,11 +27,11 @@ public class Helloworld {
     }
 
     private void sayHello(String hello) {
-        String st = "Hello, Mate! I am happy to see you! ";
-        String str = "This class looks weird! Your task is to fix the checkstyle in this file.";
-        String str2 = " Your goal is to run `mvn clean package`";
-        String str3 = " and receive `BUILD SUCCESS` message";
-        System.out.println(st + str + str2 + str3);
+        String part1 = "Hello, Mate! I am happy to see you! ";
+        String part2 = "This class looks weird! Your task is to fix the checkstyle in this file.";
+        String part3 = " Your goal is to run `mvn clean package`";
+        String part4 = " and receive `BUILD SUCCESS` message";
+        System.out.println(part1 + part2 + part3 + part4);
         System.out.println(hello);
     }
 
