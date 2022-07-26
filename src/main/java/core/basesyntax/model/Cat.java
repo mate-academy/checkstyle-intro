@@ -14,5 +14,4 @@ public class Cat {
                 + ", ownerName='" + ownerName + '\''
                 + '}';
     }
-
 }
