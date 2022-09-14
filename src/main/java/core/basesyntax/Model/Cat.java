@@ -1,6 +1,8 @@
 package core.basesyntax.Model;
 
-public class Cat {
+import core.basesyntax.HelloWorld;
+
+public class Cat extends HelloWorld {
     private int age;
     private String name;
     private String ownerName;
