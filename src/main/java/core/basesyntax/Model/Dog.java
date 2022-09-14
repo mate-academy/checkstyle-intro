@@ -1,4 +1,6 @@
 package core.basesyntax.Model;
 
-public class Dog {
+import core.basesyntax.HelloWorld;
+
+public class Dog extends HelloWorld {
 }
