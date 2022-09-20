@@ -1,12 +1,12 @@
-package core.hmhjdsd8;
+package core.basesyntax;
 
 import core.model.Cat;
 import core.model.Dog;
 import java.time.LocalDate;
 
-public class HlWorld9 {
-    private String aa6sH8;
-    private int variable2;
+public class HelloWorld {
+    private String str;
+    private int variable;
     private int age;
     private int size;
 
@@ -27,16 +27,16 @@ public class HlWorld9 {
         return result;
     }
 
-    private void sayHello(String hl9aJ8i) {
+    private void sayHello(String hello) {
         System.out.println("Hello, Mate! I am happy to see you!");
-        System.out.println(hl9aJ8i);
+        System.out.println(hello);
     }
 
     private void initializeVariables() {
-        aa6sH8 = "Hello mates!";
-        System.out.println(aa6sH8);
-        variable2 = LocalDate.now().getYear();
-        System.out.println("It is " + variable2 + "year");
+        str = "Hello mates!";
+        System.out.println(str);
+        variable = LocalDate.now().getYear();
+        System.out.println("It is " + variable + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
