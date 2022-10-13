@@ -1,22 +1,20 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
+import core.basesyntax.Model.Dog;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
-public class HelloWorld
-{
+public class HelloWorld {
     private String a;
     private int variable;
     private int age;
     private int size;
 
-
     public static void main(String[] args) {
         Dog dog = new Dog();
-        Cat cat = new Cat(); }
+        Cat cat = new Cat(); 
+        }
 
     private String getFromOneToTen () {
         StringBuilder result= new StringBuilder();
@@ -34,7 +32,7 @@ public class HelloWorld
         System.out.println(hello);
     }
 
-    private void initializeVariables() {
+    private void initializeVariables () {
         a = "Hello mates!";
         System.out.println(a);
         variable = LocalDate.now().getYear();
