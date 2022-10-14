@@ -1,6 +1,5 @@
 package core.basesyntax;
 
-import core.basesyntax.Model;
 import core.basesyntax.Model.Cat;
 import core.basesyntax.Model.Dog;
 
