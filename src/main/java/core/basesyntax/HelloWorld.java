@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-import core.basesyntax.*;
+import core.basesyntax.Model.*;
 
 
 import java.time.LocalDate;
