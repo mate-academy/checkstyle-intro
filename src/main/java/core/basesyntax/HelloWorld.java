@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.*;
-
+import core.basesyntax.Model.Cat;
+import core.basesyntax.Model.Dog;
 
 import java.time.LocalDate;
 
@@ -21,8 +21,10 @@ public class HelloWorld {
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
                 result = result
-                        + i
-                        + " ";
+                        +
+                        i
+                        +
+                        " ";
             }
         }
         return result;
@@ -30,8 +32,10 @@ public class HelloWorld {
 
     private void sayHello(String hello) {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
-                + "Your task is to fix the checkstyle in this file."
-                + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+                +
+                "Your task is to fix the checkstyle in this file."
+                +
+                " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
@@ -41,15 +45,19 @@ public class HelloWorld {
 
         variable = LocalDate.now().getYear();
         System.out.println("It is "
-                + variable
-                + "year");
+                +
+                variable
+                +
+                "year");
 
         age = 25;
         System.out.println("I'm "
-                + age);
+                +
+                age);
 
         size = 42;
         System.out.println("The size is "
-                + size);
+                +
+                size);
     }
 }
