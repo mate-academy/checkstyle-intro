@@ -40,5 +40,7 @@ public class HelloWorld {
         System.out.println("I'm " + age);
         size = 42;
         System.out.println("The size is " + size);
+        }
+        }
     }
 }
