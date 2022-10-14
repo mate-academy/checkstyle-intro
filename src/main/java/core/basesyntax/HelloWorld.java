@@ -42,5 +42,4 @@ public class HelloWorld {
         size = 42;
         System.out.println("The size is " + size);
         }
-
 }
