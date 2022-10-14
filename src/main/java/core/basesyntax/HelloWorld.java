@@ -1,8 +1,8 @@
 package core.basesyntax;
 
 import core.basesyntax.model.Cat;
-import core.basesyntax.model.Dog;
 
+import core.basesyntax.model.Dog;
 
 import java.time.LocalDate;
 
