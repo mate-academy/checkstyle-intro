@@ -9,7 +9,7 @@ import java.util.Objects;
 public class Hello_World
 {
     private String a;
-    private int vARIaBLE;
+    private int variable;
     private int age, size;
 
 
@@ -18,26 +18,28 @@ public class Hello_World
         Cat cat = new Cat(); }
 
     private String getFromOneToTen() {
-        String result="";
+        String result = "";
 
-        for (int i=0; i<10; i++){
-            if(i%2==0)
-             result = result + i + " ";
+        for (int i = 0; i < 10; i++){
+            if ( i % 2 == 0) {
+                result = result + i + " ";
+            }
         }
         return result;
     }
 
-    private void sayHello(String HELLO) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
-        " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println(HELLO);
+    private void sayHello(String hello) {
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
+                + "Your task is to fix the checkstyle in this file."
+                + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        System.out.println(hello);
     }
 
     private void initializeVariables() {
         a = "Hello mates!";
         System.out.println(a);
-        vARIaBLE = LocalDate.now().getYear();
-        System.out.println("It is " + vARIaBLE + "year");
+        variable = LocalDate.now().getYear();
+        System.out.println("It is " + variable + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
