@@ -4,7 +4,7 @@ import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
 
 import java.time.LocalDate;
-import java.util.Objects;
+
 
 public class Hello_World
 {
@@ -27,7 +27,7 @@ public class Hello_World
         return result;
     }
 
-    private void sayHello(String HELLO) {
+    private void sayHello() {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
         " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
 
