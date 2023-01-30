@@ -16,33 +16,31 @@ public class HelloWorld {
     }
 
     private String getFromOneToTen() {
-        StringBuilder result = new StringBuilder();
+        String result = "";
 
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                result.append(i).append(" ");
+                result += i + " ";
             }
         }
-        return result.toString();
+        return result;
     }
 
     private void sayHello(String hello) {
-        System.out.println("Hello, Mate! I am happy to see you! "
-                + "This class looks weird! "
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! "
                 + "Your task is to fix the checkstyle in this file."
-                + " Your goal is to run `mvn clean package` and receive "
-                + "`BUILD SUCCESS` message");
+                + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        System.out.println(hello);
     }
 
     private void initializeVariables() {
         a1 = "Hello mates!";
-        variable = LocalDate.now().getYear();
-        age = 25;
-        size = 42;
-
         System.out.println(a1);
-        System.out.println("It is" + " " + variable + " " + "year");
-        System.out.println("I'm" + " " + age);
-        System.out.println("The size is" + " " + size);
+        variable = LocalDate.now().getYear();
+        System.out.println("It is " + variable + "year");
+        age = 25;
+        System.out.println("I'm " + age);
+        size = 42;
+        System.out.println("The size is " + size);
     }
 }

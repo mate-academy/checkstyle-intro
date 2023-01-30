@@ -7,10 +7,6 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                '}';
+        return String.format("Cat{age=%d, name='%s', ownerName='%s'}", age, name, ownerName);
     }
 }
