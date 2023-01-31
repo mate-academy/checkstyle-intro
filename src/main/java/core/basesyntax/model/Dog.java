@@ -1,4 +1,4 @@
-package coreBasesyntax.Model;
+package core.basesyntax.model;
 
 public class Dog {
 
