@@ -5,7 +5,7 @@ import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
-    private String ananas;
+    private String greetingMessage;
     private int variable;
     private int age;
     private int size;
@@ -27,18 +27,18 @@ public class HelloWorld {
     }
 
     private void sayHello(String hello) {
-        System.out.println("Hello, Mate!");
-        System.out.println("\nI am happy to see you!");
-        System.out.println("\nThis class looks weird!");
-        System.out.println("\nYour task is to fix the checkstyle in this file.");
-        System.out.println(" \nYour goal is to run `mvn clean package` ");
-        System.out.println("\nand receive `BUILD SUCCESS` message");
+        System.out.println("Hello, Mate!"
+                + "\nI am happy to see you!"
+                + "\nThis class looks weird!"
+                + "\nYour task is to fix the checkstyle in this file."
+                + "\nYour goal is to run `mvn clean package`"
+                + "\nand receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
     private void initializeVariables() {
-        ananas = "Hello mates!";
-        System.out.println(ananas);
+        greetingMessage = "Hello mates!";
+        System.out.println(greetingMessage);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
