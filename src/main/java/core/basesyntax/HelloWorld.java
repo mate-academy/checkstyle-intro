@@ -4,7 +4,7 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class  HelloWorld {
+public class HelloWorld {
     private String printString;
     private int variable;
     private int age;
@@ -43,3 +43,4 @@ public class  HelloWorld {
         System.out.println("The size is " + size);
     }
 }
+
