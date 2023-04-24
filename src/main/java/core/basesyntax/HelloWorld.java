@@ -12,14 +12,12 @@ public class HelloWorld {
     private int size;
 
     public static void main(String[] args) {
-
         Dog dog = new Dog();
         Cat cat = new Cat();
     }
 
     private String getFromOneToTen() {
         String result = "";
-
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
                 result = result + i + " ";
@@ -29,7 +27,6 @@ public class HelloWorld {
     }
 
     private void sayHello(String hello) {
-
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
                 + " Your task is to fix the checkstyle in this file."
                 + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
@@ -37,7 +34,6 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-
         message = "Hello mates!";
         System.out.println(message);
         year = LocalDate.now().getYear();
