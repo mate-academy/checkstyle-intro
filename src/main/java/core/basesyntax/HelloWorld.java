@@ -36,10 +36,10 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        myVariable = "Hello mates!";
-        System.out.println(myVariable);
-        variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        message = "Hello mates!";
+        System.out.println(message);
+        currentYear = LocalDate.now().getYear();
+        System.out.println("It is " + currentYear + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
