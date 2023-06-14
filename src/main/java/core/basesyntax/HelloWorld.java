@@ -10,11 +10,16 @@ public class HelloWorld {
     private int age;
     private int size;
 
-    public String getHello() {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+    }
+
+    public String getGreeting() {
         return hello;
     }
 
-    public void setHello(String hello) {
+    public void setGreeting(String hello) {
         this.hello = hello;
     }
 
@@ -42,15 +47,9 @@ public class HelloWorld {
         this.size = size;
     }
 
-    public static void main(String[] args) {
-        Dog dog = new Dog();
-        Cat cat = new Cat();
-
-    }
-
     private String getFromOneToTen() {
         StringBuilder result = new StringBuilder();
-        for (int i = 1; i < 11; i++) {
+        for (int i = 1; i <= 10; i++) {
             result.append(i).append(" ");
         }
         return result.toString();
@@ -61,8 +60,8 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        setHello("Hello mates!");
-        System.out.println(getHello());
+        setGreeting("Hello mates!");
+        System.out.println(getGreeting());
         setYear(LocalDate.now().getYear());
         System.out.println("It is " + getYear() + " year");
         setAge(25);
