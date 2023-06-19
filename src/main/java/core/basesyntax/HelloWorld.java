@@ -6,13 +6,18 @@ import java.time.LocalDate;
 
 public class HelloWorld {
     private String greeting;
-    private int variable;
+    private int currentYear;
     private int age;
     private int size;
 
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
+
+        dog.setName("john");
+        dog.setAge(12);
+        dog.setOwnerName("ivan");
+        System.out.println(dog);
     }
 
     private String getFromOneToTen() {
@@ -36,8 +41,8 @@ public class HelloWorld {
     private void initializeVariables() {
         greeting = "Hello mates!";
         System.out.println(greeting);
-        variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        currentYear = LocalDate.now().getYear();
+        System.out.println("It is " + currentYear + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
