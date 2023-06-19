@@ -9,10 +9,8 @@ public class Cat {
     public String toString() {
         return "Cat{"
                 + "age=" + age
-                + ", name='" + name
-                + '\''
-                + ", ownerName='"
-                + ownerName + '\''
+                + ", name='" + name + '\''
+                + ", ownerName='" + ownerName + '\''
                 + '}';
     }
 }
