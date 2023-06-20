@@ -1,4 +1,4 @@
-package base.animals;
+package core.animals;
 
 public class Cat {
     private int age;
