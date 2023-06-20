@@ -5,7 +5,7 @@ import base.animals.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
-    private String stringResult;
+    private String greeting;
     private int variable;
     private int age;
     private int size;
