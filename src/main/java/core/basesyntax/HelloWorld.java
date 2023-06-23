@@ -33,6 +33,7 @@ public class HelloWorld {
         System.out.println(hello);
     }
 
+    // sets variables and print it
     private void initializeVariables() {
         helloMessage = "Hello mates!";
         System.out.println(helloMessage);
