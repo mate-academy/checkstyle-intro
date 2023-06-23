@@ -1,4 +1,4 @@
-package core.basesyntax.qaz;
+package core.basesyntax.model;
 
 public class Cat {
     private int age;
