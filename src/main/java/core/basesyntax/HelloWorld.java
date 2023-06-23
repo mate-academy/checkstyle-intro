@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-import core.basesyntax.md.Cat;
-import core.basesyntax.md.Dog;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
