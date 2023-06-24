@@ -14,7 +14,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
-        dog.toString();
     }
 
     private String getFromOneToTen() {
@@ -37,10 +36,10 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        stringHello = "Hello mates!";
-        System.out.println(stringHello);
-        variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        message = "Hello mates!";
+        System.out.println(message);
+        year = LocalDate.now().getYear();
+        System.out.println("It is " + year + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
