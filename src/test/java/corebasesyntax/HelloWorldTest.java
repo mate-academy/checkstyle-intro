@@ -1,4 +1,4 @@
-package core.basesyntax;
+package corebasesyntax;
 
 /**
  * Feel free to remove this class and create your own.
