@@ -5,7 +5,6 @@ import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
-    private static final String a = "Hello mates!";
     private int variable;
     private int age;
     private int size;
@@ -17,7 +16,6 @@ public class HelloWorld {
 
     private String getFromOneToTen() {
         String result = "";
-
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
                 result += i + " ";
@@ -34,7 +32,7 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        System.out.println(a);
+        System.out.println("Hello mates!");
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
