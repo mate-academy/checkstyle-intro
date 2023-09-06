@@ -4,7 +4,6 @@ import core.basesyntax.model.Dog;
 import core.basesyntax.model.Cat;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
 public class HelloWorld
 {
