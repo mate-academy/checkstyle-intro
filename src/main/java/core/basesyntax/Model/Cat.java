@@ -7,7 +7,7 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Cat{" + 
                 "age=" + age +
                 ", name='" + name + '\'' +
                 ", ownerName='" + ownerName + '\'' +
