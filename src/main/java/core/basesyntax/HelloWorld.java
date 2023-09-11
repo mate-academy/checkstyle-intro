@@ -20,7 +20,7 @@ public class HelloWorld {
 
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                result = result + i + "";
+                result = result + i + ""
             }
         }
         return result;
