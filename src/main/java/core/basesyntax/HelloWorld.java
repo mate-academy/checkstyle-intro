@@ -3,12 +3,11 @@ package core.basesyntax;
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
-//import java.util.Objects;
 
 public class HelloWorld {
 
     private String greeting;
-    private int varible;
+    private int currentYear;
     private int age;
     private int size;
 
@@ -39,8 +38,8 @@ public class HelloWorld {
     private void initializeVariables() {
         greeting = "Hello mates!";
         System.out.println(greeting);
-        varible = LocalDate.now().getYear();
-        System.out.println("It is " + varible + "year");
+        currentYear = LocalDate.now().getYear();
+        System.out.println("It is " + currentYear + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
