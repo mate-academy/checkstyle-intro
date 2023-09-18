@@ -5,19 +5,17 @@ import core.basesyntax.animals.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
-    private String name;
     private int date;
     private int age;
     private int size;
+    private String greetings;
 
     public static void main(String[] args) {
-
         Dog dog = new Dog();
         Cat cat = new Cat();
     }
 
     private String getFromOneToTen() {
-
         String result = "";
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
@@ -36,13 +34,13 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        String greetings = "Hello mates!";
-        System.out.println(name);
-        int variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
-        int age = 25;
+        greetings = "Hello mates!";
+        System.out.println(greetings);
+        date = LocalDate.now().getYear();
+        System.out.println("It is " + date + "year");
+        age = 25;
         System.out.println("I'm " + age);
-        int size = 42;
+        size = 42;
         System.out.println("The size is " + size);
     }
 }
