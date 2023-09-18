@@ -8,13 +8,11 @@ public class HelloWorld {
     private String name;
     private int date;
     private int age;
-
     private int size;
 
     public static void main(String[] args) {
 
         Dog dog = new Dog();
-
         Cat cat = new Cat();
     }
 
@@ -38,7 +36,7 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        String name = "Hello mates!";
+        String greetings = "Hello mates!";
         System.out.println(name);
         int variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
