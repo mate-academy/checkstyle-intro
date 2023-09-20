@@ -4,8 +4,8 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class Main {
-    private String welcome;
+public class HelloWorld {
+    private String greeting;
     private int year;
     private int age;
     private int size;
@@ -20,7 +20,7 @@ public class Main {
 
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                result += i + " ";
+                result = result + i + " ";
             }
         }
         return result;
@@ -34,8 +34,8 @@ public class Main {
     }
 
     private void initializeVariables() {
-        welcome = "Hello mates!";
-        System.out.println(welcome);
+        greeting = "Hello mates!";
+        System.out.println(greeting);
         year = LocalDate.now().getYear();
         System.out.println("It is " + year + "year");
         age = 25;
