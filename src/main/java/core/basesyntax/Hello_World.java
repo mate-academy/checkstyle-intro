@@ -1,15 +1,10 @@
 package core.basesyntax;
-
 import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
-
 import java.time.LocalDate;
-
 
 public class Hello_World
 {
-
-
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat(); }
@@ -19,7 +14,7 @@ public class Hello_World
 
         for (int i=0; i<10; i++){
             if(i%2==0)
-                result = result + i + " ";
+                result +=   i + " ";
         }
         return result;
     }
