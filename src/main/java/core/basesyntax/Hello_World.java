@@ -15,7 +15,12 @@ public class Hello_World
 
     public static void main(String[] args) {
         Dog dog = new Dog();
-        Cat cat = new Cat(); }
+        Cat cat = new Cat();
+        String hw1 = "I don`t understand what i need do in this task." +
+                " In description says  - make fork and make pull request" +
+                "So I add this string in project and push that";
+        System.out.println(hw1);
+    }
 
     private String getFromOneToTen() {
         String result="";
