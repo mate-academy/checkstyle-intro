@@ -2,9 +2,7 @@ package core.basesyntax;
 
 import core.basesyntax.Model.Cat;
 import core.basesyntax.Model.Dog;
-
 import java.time.LocalDate;
-import java.util.Objects;
 
 public class Hello_World
 {
