@@ -12,7 +12,8 @@ public class Hello_World {
         String result = "";
         for (int i=0; i<10; i++){
             if (i % 2 == 0){
-                result += i + " ";
+                result += i
+                        + " ";
             }
         }
         return result;
