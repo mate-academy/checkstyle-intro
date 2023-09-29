@@ -25,15 +25,15 @@ public class Hello_World {
     }
     private void initializeVariables() {
         String a;
+        a = "Hello mates!";
         int variable;
+        variable = LocalDate.now().getYear();
         int age, size;
         age = 25;
         size = 42;
         System.out.println("I'm " + age);
         System.out.println("The size is " + size);
-        a = "Hello mates!";
         System.out.println(a);
-        variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
     }
 }
