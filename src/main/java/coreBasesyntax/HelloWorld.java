@@ -2,7 +2,6 @@ package coreBasesyntax;
 
 import coreBasesyntax.Model.Cat;
 import coreBasesyntax.Model.Dog;
-
 import java.time.LocalDate;
 
 public class HelloWorld {
