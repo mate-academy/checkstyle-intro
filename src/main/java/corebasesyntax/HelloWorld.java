@@ -1,7 +1,7 @@
-package CoreBasesyntax;
+package corebasesyntax;
 
-import CoreBasesyntax.Model.Cat;
-import CoreBasesyntax.Model.Dog;
+import corebasesyntax.Model.Cat;
+import corebasesyntax.Model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
