@@ -31,9 +31,13 @@ public class Hello_World {
         int age, size;
         age = 25;
         size = 42;
-        System.out.println("I'm " + age);
-        System.out.println("The size is " + size);
+        System.out.println("I'm "
+                + age);
+        System.out.println("The size is "
+                + size);
         System.out.println(a);
-        System.out.println("It is " + variable + "year");
+        System.out.println("It is "
+                + variable
+                + "year");
     }
 }
