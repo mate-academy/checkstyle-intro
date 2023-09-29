@@ -18,21 +18,22 @@ public class Hello_World {
         return result;
     }
     private void sayHello(String hello) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
-            " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your " +
+                "task is to fix the checkstyle in this file. Your goal" +
+                    " is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
     private void initializeVariables() {
         String a;
         int variable;
         int age, size;
+        age = 25;
+        size = 42;
+        System.out.println("I'm " + age);
+        System.out.println("The size is " + size);
         a = "Hello mates!";
         System.out.println(a);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
-        age = 25;
-        System.out.println("I'm " + age);
-        size = 42;
-        System.out.println("The size is " + size);
     }
 }
