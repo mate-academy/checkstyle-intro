@@ -1,8 +1,6 @@
 package core.basesyntax;
 
-import core.basesyntax.model.Cat;
-import core.basesyntax.model.Dog;
-import java.time.LocalDate;
+import java.util.Arrays;
 
 public class HelloWorld {
     private String string;
@@ -11,35 +9,20 @@ public class HelloWorld {
     private int size;
 
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        Cat cat = new Cat();
+        String[] x = {"FRODO", "SAM", "MERRY", "PIPPIN"};
+        System.out.println(Arrays.toString(capitalizeNames(x)));
+        String a = "";
+        //a.replaceAll("")
     }
 
-    private String getFromOneToTen() {
-        String result = "";
-        for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0) {
-                result = result + i + " ";
-            }
+    public static String[] capitalizeNames(String[] names) {
+        String[] array = new String[names.length];
+        int count = 0;
+        for (String name:names) {
+            String x = name.toLowerCase().substring(0,1).toUpperCase() + name.substring(1)
+                    .toLowerCase();
+            array[count++] = x;
         }
-        return result;
-    }
-
-    private void sayHello(String msg) {
-        System.out.println("Hello, Mate! I am happy to see you! "
-                + "This class looks weird! Your task is to fix the checkstyle in this file."
-                + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println(msg);
-    }
-
-    private void initializeVariables() {
-        string = "Hello mates!";
-        System.out.println(string);
-        year = LocalDate.now().getYear();
-        System.out.println("It is " + year + "year");
-        age = 25;
-        System.out.println("I'm " + age);
-        size = 42;
-        System.out.println("The size is " + size);
+        return array;
     }
 }
