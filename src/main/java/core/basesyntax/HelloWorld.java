@@ -1,9 +1,8 @@
 package core.basesyntax;
 
-import java.time.LocalDate;
-
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
+import java.time.LocalDate;
 
 public class HelloWorld {
     private String greetings;
