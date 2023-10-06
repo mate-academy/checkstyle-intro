@@ -26,21 +26,6 @@ public class HelloWorld {
             }
             return result;
         }
-
-        private void sayHello() {
-            System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
-                    " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        }
-
-        private void initializeVariables() {
-            a = "Hello mates!";
-            System.out.println(a);
-            variable = LocalDate.now().getYear();
-            System.out.println("It is " + variable + "year");
-            age = 25;
-            System.out.println("I'm " + age);
-            size = 42;
-            System.out.println("The size is " + size);
-        }
+        return result;
     }
 }
