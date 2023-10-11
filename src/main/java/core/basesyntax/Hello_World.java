@@ -12,7 +12,6 @@ public class Hello_World
     private int vARIaBLE;
     private int age, size;
 
-
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat(); }
