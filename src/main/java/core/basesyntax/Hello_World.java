@@ -15,7 +15,8 @@ public class Hello_World
 
     public static void main(String[] args) {
         Dog dog = new Dog();
-        Cat cat = new Cat(); }
+        Cat cat = new Cat();
+    }
 
     private String getFromOneToTen() {
         String result="";
@@ -28,7 +29,7 @@ public class Hello_World
     }
 
     private void sayHello(String HELLO) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
+        System.out.println("Hello, ! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
         " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(HELLO);
     }
