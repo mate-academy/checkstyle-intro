@@ -16,8 +16,6 @@ public class Hello_World
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
-        Hello_World helloWorld = new Hello_World();
-        helloWorld.sayHello("Mate ");
     }
 
     private String getFromOneToTen() {
