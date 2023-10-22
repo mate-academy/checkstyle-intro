@@ -1,6 +1,7 @@
 package core.basesyntax;
 
 import core.basesyntax.Model.Dog;
+
 import core.basesyntax.Model.Cat;
 
 import java.time.LocalDate;
