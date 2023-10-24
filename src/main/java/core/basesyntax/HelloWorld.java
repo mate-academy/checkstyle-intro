@@ -1,16 +1,15 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Dog;
-import core.basesyntax.Model.Cat;
+import core.basesyntax.model.Dog;
+import core.basesyntax.model.Cat;
 
-import java.time.LocalDate;
-import java.util.Objects;
+import java.time.localDate;
+import java.util.objects;
 
-public class Hello_World
-{
-    private String a;
-    private int vARIaBLE;
-    private int age, size;
+public class HelloWorld {
+    public String a;
+    public int vARIaBLE;
+    public int age, size;
 
 
     public static void main(String[] args) {
@@ -20,8 +19,8 @@ public class Hello_World
     private String getFromOneToTen() {
         String result="";
 
-        for (int i=0; i<10; i++){
-            if(i%2==0)
+        for (int i = 0; i < 10; i++){
+            if (i % 2 == 0)
              result = result + i + " ";
         }
         return result;
