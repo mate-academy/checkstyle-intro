@@ -4,15 +4,16 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class Hello_World {
-    private String a;
+public class HelloWorld {
+    private String string;
     private int variable;
-    private int age, size;
-
+    private int age;
+    private int size;
 
     public static void main(String[] args) {
         Dog dog = new Dog();
-        Cat cat = new Cat(); }
+        Cat cat = new Cat();
+    }
 
     private String getFromOneToTen() {
         String result = "";
@@ -33,8 +34,8 @@ public class Hello_World {
     }
 
     private void initializeVariables() {
-        a = "Hello mates!";
-        System.out.println(a);
+        string = "Hello mates!";
+        System.out.println(string);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
