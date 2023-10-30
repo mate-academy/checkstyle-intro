@@ -1,12 +1,9 @@
-package core.basesyntax;
-
-import core.basesyntax.Model.Dog;
-import core.basesyntax.Model.Cat;
+package core.basesyntax.model;
 
 import java.time.LocalDate;
 
 class HelloWorld {
-    private String a;
+    private String myString;
     private int variable;
     private int age;
     private int size;
@@ -19,7 +16,7 @@ class HelloWorld {
     private String getFromOneToTen() {
         StringBuilder result = new StringBuilder();
 
-        for (int i = 0 ; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
                 result.append(i).append(" ");
             }
@@ -27,15 +24,18 @@ class HelloWorld {
         return result.toString();
     }
 
-    private void sayHello(String HELLO) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
-        " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println(HELLO);
+    private void sayHello(String sayHello) {
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
+                +
+                " Your task is to fix the checkstyle in this file."
+                +
+                " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        System.out.println(sayHello);
     }
 
     private void initializeVariables() {
-        a = "Hello mates!";
-        System.out.println(a);
+        myString = "Hello mates!";
+        System.out.println(myString);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
