@@ -4,7 +4,6 @@ import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
 class HelloWorld {
     private String a;
@@ -14,7 +13,8 @@ class HelloWorld {
 
     public static void main(String[] args) {
         Dog dog = new Dog();
-        Cat cat = new Cat(); }
+        Cat cat = new Cat();
+    }
 
     private String getFromOneToTen() {
         StringBuilder result = new StringBuilder();
