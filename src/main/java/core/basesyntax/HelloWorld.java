@@ -5,7 +5,7 @@ import core.basesyntax.Model.Dog;
 import java.time.LocalDate;
 //import java.util.Objects; unused import
 
-public class Hello_World {
+public class HelloWorld {
     private String hello;
     private int variable;
     private int age;
