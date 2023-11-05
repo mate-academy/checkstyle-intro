@@ -29,7 +29,7 @@ public class Hello_World
 
     private void sayHello(String HELLO) {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
-        " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        " Your goal is to run `mvn clean package`and receive `BUILD SUCCESS` message");
         System.out.println(HELLO);
     }
 
