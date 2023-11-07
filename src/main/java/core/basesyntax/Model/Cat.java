@@ -7,10 +7,13 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                '}';
+
+        return "Cat{age=" + this.age + ", name='" + this.name + "', ownerName='" + this.ownerName + "'}";
+        }
     }
-}
+
+
+
+
+
+

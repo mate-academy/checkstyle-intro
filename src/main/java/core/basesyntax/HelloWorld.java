@@ -48,3 +48,4 @@ public class HelloWorld {
         System.out.println("The size is " + this.size);
     }
 }
+
