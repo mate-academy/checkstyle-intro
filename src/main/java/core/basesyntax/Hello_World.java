@@ -6,6 +6,8 @@ import core.basesyntax.Model.Cat;
 import java.time.LocalDate;
 import java.util.Objects;
 
+//test comment for commit
+
 public class Hello_World
 {
     private String a;
