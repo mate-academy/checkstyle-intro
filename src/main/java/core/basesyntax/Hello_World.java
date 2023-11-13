@@ -11,6 +11,7 @@ public class Hello_World
     private String a;
     private int vARIaBLE;
     private int age, size;
+    private String yaroslav;
 
 
     public static void main(String[] args) {
