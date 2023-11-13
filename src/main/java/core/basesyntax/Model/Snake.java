@@ -1,3 +1,3 @@
-class Snake(){
+class Snake() {
     
 }
