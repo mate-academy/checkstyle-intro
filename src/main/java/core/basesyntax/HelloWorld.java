@@ -1,10 +1,10 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Cat;
-import core.basesyntax.Model.Dog;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class Hello_World {
+public class HelloWorld {
     private String greetings;
     private int variable;
     private int age;
