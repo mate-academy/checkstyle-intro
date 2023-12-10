@@ -14,9 +14,12 @@ public class Hello_World
 
 
     public static void main(String[] args) {
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
+                " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         Dog dog = new Dog();
         Cat cat = new Cat(); }
 
+//test
     private String getFromOneToTen() {
         String result="";
 
