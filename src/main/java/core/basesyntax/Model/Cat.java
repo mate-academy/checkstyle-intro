@@ -1,16 +1,12 @@
 package core.basesyntax.Model;
 
-public class Cat {
-    private int age;
-    private String name;
-    private String ownerName;
-
+public class Cat extends Model{
     @Override
     public String toString() {
         return "Cat{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", ownerName='" + ownerName + '\'' +
+                "age=" + getAge() +
+                ", name='" + getName() + '\'' +
+                ", ownerName='" + getOwnerName() + '\'' +
                 '}';
     }
 }
