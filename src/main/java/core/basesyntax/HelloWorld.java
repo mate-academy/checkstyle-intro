@@ -4,7 +4,7 @@ import core.basesyntax.model.Dog;
 import core.basesyntax.model.Cat;
 import java.time.LocalDate;
 
-public class Hello_World {
+public class HelloWorld {
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
