@@ -7,15 +7,16 @@ import java.time.LocalDate;
 public class HelloWorld {
     public static void main(String[] args) {
         Dog dog = new Dog();
-        Cat cat = new Cat();
+        Cat cat = new Cat(25, "Bobik", "Artem");
     }
 
     private String getFromOneToTen() {
         StringBuilder result = new StringBuilder();
 
-        for (int i = 0; i < 10; i++){
-            if(i % 2 == 0)
+        for (int i = 0; i < 10; i++) {
+            if(i % 2 == 0) {
                 result.append(i).append(" ");
+            }
         }
         return result.toString();
     }
