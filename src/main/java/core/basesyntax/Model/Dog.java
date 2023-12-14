@@ -1,12 +1,4 @@
-package core.basesyntax.Model;
+package core.basesyntax.model;
 
-public class Dog extends Model{
-    @Override
-    public String toString() {
-        return "Dog{" +
-                "age=" + getAge() +
-                ", name='" + getName() + '\'' +
-                ", ownerName='" + getOwnerName() + '\'' +
-                '}';
-    }
+public class Dog {
 }
