@@ -2,11 +2,9 @@ package core.basesyntax;
 
 import core.basesyntax.Model.Cat;
 import core.basesyntax.Model.Dog;
-
 import java.time.LocalDate;
 
-public class  Hello_World
-{
+public class  Hello_World {
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
@@ -23,8 +21,9 @@ public class  Hello_World
     }
 
     private void sayHello(String hello) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file."
-                + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
+                + "Your task is to fix the checkstyle in this file."
+                + "Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
