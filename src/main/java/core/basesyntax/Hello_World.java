@@ -11,30 +11,24 @@ public class Hello_World
 
 
     public static void main(String[] args) {
+        Hello_World a = new Hello_World();
+        a.sayHello();
+        a.initializeVariables();
 
     }
 
-    public String getFromOneToTen() {
-        StringBuilder result= new StringBuilder();
 
-        for (int i=0; i<10; i++){
-            if(i%2==0)
-             result.append(i).append(" ");
-        }
-        return result.toString();
-    }
-
-    private void sayHello(String HELLO) {
+    private void sayHello() {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
         " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println(HELLO);
+        System.out.println();
     }
 
     private void initializeVariables() {
         a = "Hello mates!";
         System.out.println(a);
         vARIaBLE = LocalDate.now().getYear();
-        System.out.println("It is " + vARIaBLE + "year");
+        System.out.println("It is " + vARIaBLE + " year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
