@@ -5,37 +5,43 @@ import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
-    private String ab;
+    private String abc;
     private int variable;
     private int age;
     private int size;
 
-    public static void main(String[] args) {
-        Dog dog = new Dog();
-        Cat cat = new Cat();
+    public HelloWorld(String abc, int variable, int age, int size) {
+        this.abc = abc;
+        this.variable = variable;
+        this.age = age;
+        this.size = size;
     }
 
-    private String getFromOneToTen() {
-        String result = "";
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        Cat cat = new Cat(5, "Murzik", "Alis");
+    }
 
+    public String getFromOneToTen() {
+        String result = "";
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                result = result + i + " ";
+                result = "Even number";
             }
+            break;
         }
         return result;
     }
 
-    private void sayHello(String hello) {
-        System.out.println("Hello, Mate! I am happy to see you! "
-                + "This class looks weird! Your task is to fix the checkstyle in this file."
-                + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println(hello);
+    public void sayHello(String hello) {
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! "
+                + "Your task is to fix the checkstyle in this file. "
+                + "Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
     }
 
-    private void initializeVariables() {
-        ab = "Hello mates!";
-        System.out.println(ab);
+    public void initializeVariables() {
+        abc = "Hello mates!";
+        System.out.println(abc);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
