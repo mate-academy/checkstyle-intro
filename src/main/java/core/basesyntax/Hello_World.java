@@ -1,15 +1,17 @@
 package core.basesyntax;
+import core.basesyntax.model.Dog;
+import core.basesyntax.model.Cat;
 
 import java.time.LocalDate;
 
-import core.basesyntax.Model.Dog;
-import core.basesyntax.Model.Cat;
+
 
 
 public class Hello_World {
     private String a;
     private int variable;
-    private int age, size;
+    private int age;
+    private int size;
 
 
     public static void main(String[] args) {
@@ -27,11 +29,11 @@ public class Hello_World {
         return result;
     }
 
-    private void sayHello(String HELLO) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird!" +
-                " Your task is to fix the checkstyle in this file." +
-                " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println(HELLO);
+    private void sayHello(String hello) {
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
+                + " Your task is to fix the checkstyle in this file."
+                + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        System.out.println(hello);
     }
 
     private void initializeVariables() {
