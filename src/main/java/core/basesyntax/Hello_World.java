@@ -6,10 +6,12 @@ import core.basesyntax.Model.Cat;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Hello_World {
+public class Hello_World
+{
     private String a;
     private int variable;
     private int age, size;
+
 
     public static void main(String[] args) {
         Dog dog = new Dog();
@@ -17,20 +19,18 @@ public class Hello_World {
     }
 
     private String getFromOneToTen() {
-        StringBuilder result = new StringBuilder();
+        String result = "";
 
-        for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0) {
-                result.append(i).append(" ");
-            }
+        for (int i=0; i < 10; i++){
+            if(i % 2 == 0)
+             result = result + i + " ";
         }
-        return result.toString().trim();
+        return result;
     }
 
     private void sayHello(String hello) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! "
-                + "Your task is to fix the checkstyle in this file. Your goal is to run `mvn clean package` "
-                + "and receive `BUILD SUCCESS` message");
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
+        " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
@@ -38,7 +38,7 @@ public class Hello_World {
         a = "Hello mates!";
         System.out.println(a);
         variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + " year");
+        System.out.println("It is " + variable + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
