@@ -1,5 +1,7 @@
 package core.basesyntax;
 
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -36,5 +38,10 @@ public class HelloWorld {
         System.out.println("I'm " + age);
         size = 42;
         System.out.println("The size is " + size);
+    }
+
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        Cat cat = new Cat();
     }
 }
