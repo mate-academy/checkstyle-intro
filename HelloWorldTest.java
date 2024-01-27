@@ -1,8 +1,11 @@
 package core.basesyntax;
 
-import java.time.LocalDate;
+/**
+ * Feel free to remove this class and create your own.
+ */
+ pimport java.time.LocalDate;
 
-public class HelloWorldTest {
+public class HelloWorld {
  public static void main(String[] args) {
   Greeter greeter = new Greeter();
   Printer printer = new Printer();
@@ -36,8 +39,8 @@ class Printer {
   String a = "Привет, друзья!";
   System.out.println(a);
 
-  int currentYear = LocalDate.now().getYear();
-  System.out.println("Сейчас " + currentYear + " год осень и холодно");
+  int variable = LocalDate.now().getYear();
+  System.out.println("Сейчас " + variable + " год осень и холодно");
 
   int age = 50;
   System.out.println("Мне " + age + " лет");
