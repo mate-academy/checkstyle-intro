@@ -4,8 +4,8 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class Hello_World {
-    private String arg;
+public class HelloWorld {
+    private String name;
     private int variable;
     private int age;
     private int size;
@@ -17,25 +17,27 @@ public class Hello_World {
 
     private String getFromOneToTen() {
         String result = "";
+
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                result += i + " ";
+                result = result + i + " ";
             }
         }
-        return result.trim();
+        return result;
     }
 
     private void sayHello(String hello) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file."
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
+                + " Your task is to fix the checkstyle in this file."
                 + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
     private void initializeVariables() {
-        arg = "Hello mates!";
-        System.out.println(arg);
+        name = "Hello mates!";
+        System.out.println(name);
         variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + " year");
+        System.out.println("It is " + variable + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
