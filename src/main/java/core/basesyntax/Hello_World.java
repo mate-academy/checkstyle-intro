@@ -12,17 +12,18 @@ public class Hello_World
     private int vARIaBLE;
     private int age, size;
 
-
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat(); }
 
     private String getFromOneToTen() {
-        String result="";
+        String result = "";
 
-        for (int i=0; i<10; i++){
-            if(i%2==0)
-             result = result + i + " ";
+        for (int i = 0; i < 10; i++) {
+            if ( i % 2 == 0) {
+
+                result = result + i + " ";
+            }
         }
         return result;
     }
@@ -34,7 +35,7 @@ public class Hello_World
     }
 
     private void initializeVariables() {
-        a = "Hello mates!";
+         a = "Hello mates!";
         System.out.println(a);
         vARIaBLE = LocalDate.now().getYear();
         System.out.println("It is " + vARIaBLE + "year");
