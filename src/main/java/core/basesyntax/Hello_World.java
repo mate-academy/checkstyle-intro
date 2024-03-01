@@ -9,8 +9,8 @@ import java.util.Objects;
 public class Hello_World
 {
     private String a;
-    private int vARIaBLE;
-    private int age, size;
+    private int variable;
+    private int age,size;
 
 
     public static void main(String[] args) {
@@ -36,8 +36,8 @@ public class Hello_World
     private void initializeVariables() {
         a = "Hello mates!";
         System.out.println(a);
-        vARIaBLE = LocalDate.now().getYear();
-        System.out.println("It is " + vARIaBLE + "year");
+        variable = LocalDate.now().getYear();
+        System.out.println("It is " + variable + "year");
         age = 25;
         System.out.println("I'm " + age);
         size = 42;
