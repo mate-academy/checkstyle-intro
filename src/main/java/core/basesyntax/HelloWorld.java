@@ -4,7 +4,7 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class Hello_World {
+public class HelloWorld {
     private String helloMessage;
     private int variable;
     private int age;
@@ -14,7 +14,7 @@ public class Hello_World {
         Dog dog = new Dog();
         Cat cat = new Cat();
 
-        Hello_World main = new Hello_World();
+        HelloWorld main = new HelloWorld();
         main.initializeVariables();
         System.out.println(main.getFromOneToTen());
         main.sayHello("Hi there!");
