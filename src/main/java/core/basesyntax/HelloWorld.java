@@ -6,15 +6,15 @@ import java.time.LocalDate;
 
 public class HelloWorld {
 
+    private String greeting;
+    private int variable;
+    private int age;
+    private int size;
+
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
     }
-
-    private int variable;
-    private int size;
-    private int age;
-    private String greeting;
 
     private String getFromOneToTen() {
         String result = "";
