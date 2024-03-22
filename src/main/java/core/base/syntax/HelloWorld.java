@@ -1,7 +1,7 @@
-package CoreBaseSyntax;
+package core.base.syntax;
 
-import CoreBaseSyntax.Model.Cat;
-import CoreBaseSyntax.Model.Dog;
+import core.base.syntax.model.Cat;
+import core.base.syntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -27,7 +27,9 @@ public class HelloWorld {
 
     private void sayHello(String hello) {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird!");
-        System.out.println("Your task is to fix the checkstyle in this file. Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
+        System.out.println("Your task is to fix the checkstyle in this file.");
+        System.out.println("Your goal is to run `mvn clean package` and receive ");
+        System.out.println("`BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
