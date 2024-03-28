@@ -4,7 +4,7 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class HelloWorld {
+public class Helloworld {
     private String avolve;
     private int variable;
     private int age;
