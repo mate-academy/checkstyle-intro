@@ -1,6 +1,6 @@
 
-import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
+import core.basesyntax.Model.Dog;
 
 import java.time.LocalDate;
 import java.util.Arrays;
