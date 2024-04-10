@@ -1,14 +1,10 @@
-package core.basesyntax;
 
 import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
 
 import java.time.LocalDate;
 import java.util.Arrays;
-public static void main() {
-    Hello_World hello_world = new Hello_World();
-    System.out.println(hello_world);
-}
+
 public static class Hello_World {
     private String a;
     private int vARIaBLE;
