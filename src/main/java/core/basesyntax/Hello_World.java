@@ -4,7 +4,7 @@ import core.basesyntax.Model.Cat;
 import core.basesyntax.Model.Dog;
 import java.time.LocalDate;
 //import java.util.Objects;
-
+//123
 public class Hello_World {
     private String astring;
     private int variable; // vARIaBLE Variable
