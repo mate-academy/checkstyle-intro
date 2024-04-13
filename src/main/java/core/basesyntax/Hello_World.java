@@ -2,21 +2,19 @@ package core.basesyntax;
 
 import core.basesyntax.Model.Cat;
 import core.basesyntax.Model.Dog;
-
 import java.time.LocalDate;
 //import java.util.Objects;
 
 public class Hello_World {
     private String astring;
     private int variable; // vARIaBLE Variable
-    private int age, size;
-
+    private int age;
+    private int size;
 
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
     }
-
 
     private String getFromOneToTen() {
         String result = "";
