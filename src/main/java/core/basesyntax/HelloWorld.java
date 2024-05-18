@@ -11,6 +11,7 @@ public class HelloWorld {
         Cat cat = new Cat();
     }
 
+
     private String getFromOneToTen() {
         StringBuilder result = new StringBuilder();
 
