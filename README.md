@@ -11,7 +11,7 @@ Continue to fix all code style issues until you receive console output similar t
 [INFO] 
 [INFO] --- maven-checkstyle-plugin:3.1.1:check (default) @ diamond ---
 [INFO] Starting audit...
-Audit done.
+ Audit done.
 [INFO] You have 0 Checkstyle violations.
 [INFO] 
 
