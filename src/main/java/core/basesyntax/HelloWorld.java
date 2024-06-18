@@ -1,10 +1,7 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Dog;
-import core.basesyntax.Model.Cat;
-
-import java.time.LocalDate;
-import java.util.Objects;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 
 public class HelloWorld {
     private String message;
@@ -48,4 +45,3 @@ public class HelloWorld {
         System.out.println("The size is " + size);
     }
 }
-
