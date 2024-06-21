@@ -1,3 +1,4 @@
+
 package core.basesyntax;
 
 import core.basesyntax.model.Cat;
