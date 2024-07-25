@@ -5,13 +5,6 @@ public class Cat {
     private String name;
     private String ownerName;
 
-    public Cat() {
-    }
-    public Cat(int age, String name, String ownerName) {
-        this.age = age;
-        this.name = name;
-        this.ownerName = ownerName;
-    }
     public int getAge() {
         return age;
     }
