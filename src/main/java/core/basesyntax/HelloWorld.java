@@ -1,22 +1,25 @@
 package core.basesyntax;
 
-import core.basesyntax.model.Dog;
 import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
+
 import java.time.LocalDate;
 
 public class HelloWorld {
 
     public static void main(String[] args) {
-        Dog dog = new Dog();
+
         Cat cat = new Cat();
+        Dog dog = new Dog();
+
 
         cat.setAge(3);
         cat.setName("Whiskers");
         cat.setOwnerName("John Doe");
 
+
         dog.setAge(5);
         dog.setName("Buddy");
-
 
         System.out.println("Cat's age: " + cat.getAge());
         System.out.println("Cat's name: " + cat.getName());
@@ -28,7 +31,7 @@ public class HelloWorld {
 
         HelloWorld helloWorld = new HelloWorld();
         helloWorld.initializeVariables();
-        helloWorld.sayHello();
+        helloWorld.sayHello("Hello there!");
         System.out.println(helloWorld.getFromOneToTen());
         System.out.println(cat);
         System.out.println(dog);
@@ -45,11 +48,11 @@ public class HelloWorld {
         return result.toString();
     }
 
-    private void sayHello() {
+    private void sayHello(String hello) {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
                 + " Your task is to fix the checkstyle in this file."
                 + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println("Hello there!");
+        System.out.println(hello);
     }
 
     private void initializeVariables() {
