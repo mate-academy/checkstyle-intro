@@ -5,8 +5,7 @@ import core.basesyntax.Model.Cat;
 
 import java.time.LocalDate;
 
-public class HelloWorld
-{
+public class HelloWorld {
     private String a;
     private int variable, age, size;
 
@@ -20,7 +19,7 @@ public class HelloWorld
         String result = "";
 
         for (int i = 0; i < 10; i++){
-            if(i % 2 == 0)
+            if (i % 2 == 0)
              result = result + i + " ";
         }
         return result;
