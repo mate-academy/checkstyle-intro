@@ -1,6 +1,7 @@
 package core.basesyntax;
 
 import core.basesyntax.Model.Dog;
+
 import core.basesyntax.Model.Cat;
 
 import java.time.LocalDate;
@@ -12,6 +13,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
         Dog dog = new Dog();
+
         Cat cat = new Cat();
     }
 
