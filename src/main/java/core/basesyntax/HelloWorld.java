@@ -1,5 +1,6 @@
 package core.basesyntax;
 
+
 //всі з малої крім назви класу
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
