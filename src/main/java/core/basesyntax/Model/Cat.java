@@ -1,6 +1,5 @@
 package core.basesyntax.model;
 
-//cjksdnkds
 public class Cat {
     private int age;
     private String name;

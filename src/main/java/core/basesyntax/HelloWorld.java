@@ -4,7 +4,6 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-//clsnclksmc
 public class clHelloWorld {
     private String nameHello;
     private int variable;
