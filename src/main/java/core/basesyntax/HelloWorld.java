@@ -1,12 +1,10 @@
 package core.basesyntax;
 
-
-//всі з малої крім назви класу
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class HelloWorld {
+public class clHelloWorld {
     private String nameHello;
     private int variable;
     private int age;
