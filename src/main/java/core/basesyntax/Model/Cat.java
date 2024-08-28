@@ -4,7 +4,7 @@ public class Cat {
     private int age;
     private String name;
     private String ownerName;
-    //треба новий коміт
+
     @Override
     public String toString() {
         return "Cat{"
