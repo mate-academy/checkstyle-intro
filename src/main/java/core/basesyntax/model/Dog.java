@@ -7,10 +7,10 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                '}';
+        return "Dog{"
+                + "age=" + age
+                + ", name='" + name + '\''
+                + ", ownerName='" + ownerName + '\''
+                + '}';
     }
 }
