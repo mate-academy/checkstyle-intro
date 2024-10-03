@@ -1,7 +1,7 @@
 package core.base.syntax;
 
-import core.base.syntax.model.Dog;
 import core.base.syntax.model.Cat;
+import core.base.syntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -13,7 +13,7 @@ public class HelloWorld {
     private String getFromOneToTen() {
         String result = "";
         for (int i = 0; i < 10; i++) {
-            if(i % 2 == 0) {
+            if (i % 2 == 0) {
                 result = result + i + " ";
             }
         }
