@@ -1,4 +1,4 @@
-package core.basesyntax.Model;
+package core.base.syntax.Model;
 
 public class Cat {
     private int age;
