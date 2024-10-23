@@ -1,12 +1,10 @@
-
 package core.basesyntax;
 
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
-
 public class HelloWorld {
-    private String string;
+    private String hello;
     private int variable;
     private int age;
     private int size;
@@ -28,15 +26,15 @@ public class HelloWorld {
     }
 
     private void sayHello(String hello) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! "
-                + "Your task is to fix the checkstyle in this file."
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird!"
+                + " Your task is to fix the checkstyle in this file."
                 + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
     private void initializeVariables() {
-        string = "Hello mates!";
-        System.out.println(string);
+        hello = "Hello mates!";
+        System.out.println(hello);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
