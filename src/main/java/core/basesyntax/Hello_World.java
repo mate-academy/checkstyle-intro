@@ -43,4 +43,9 @@ public class Hello_World
         size = 42;
         System.out.println("The size is " + size);
     }
+
+    public static void hello() {
+    String a = "Hello World";
+    System.out.println(a);
+}
 }
