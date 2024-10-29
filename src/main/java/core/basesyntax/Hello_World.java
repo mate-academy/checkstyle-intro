@@ -1,5 +1,5 @@
 package core.basesyntax;
-
+//test1
 import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
 
@@ -35,6 +35,7 @@ public class Hello_World
 
     private void initializeVariables() {
         a = "Hello mates!";
+
         System.out.println(a);
         vARIaBLE = LocalDate.now().getYear();
         System.out.println("It is " + vARIaBLE + "year");
@@ -44,8 +45,5 @@ public class Hello_World
         System.out.println("The size is " + size);
     }
 
-    public static void hello() {
-    String a = "Hello World";
-    System.out.println(a);
-}
+
 }
