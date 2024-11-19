@@ -15,7 +15,9 @@ public class Hello_World
 
     public static void main(String[] args) {
         Dog dog = new Dog();
-        Cat cat = new Cat(); }
+        Cat cat = new Cat();
+        System.out.println("Hello world");
+    }
 
     private String getFromOneToTen() {
         String result="";
