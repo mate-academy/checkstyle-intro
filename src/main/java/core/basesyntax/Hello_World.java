@@ -4,13 +4,12 @@ import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
 public class Hello_World
 {
-    private String a;
-    private int vARIaBLE;
-    private int age, size;
+    String a;
+    int vARIaBLE;
+    int age, size;
 
 
     public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class Hello_World
         String result="";
 
         for (int i=0; i<10; i++){
-            if(i%2==0)
+            if (i%2==0)
              result = result + i + " ";
         }
         return result;
