@@ -4,13 +4,12 @@ import core.basesyntax.Model.Dog;
 import core.basesyntax.Model.Cat;
 
 import java.time.LocalDate;
-import java.util.Objects;
 
 public class Hello_World
 {
-    private String a;
-    private int vARIaBLE;
-    private int age, size;
+    String a;
+    int vARIaBLE;
+    int age, size;
 
 
     public static void main(String[] args) {
@@ -18,13 +17,13 @@ public class Hello_World
         Cat cat = new Cat(); }
 
     private String getFromOneToTen() {
-        String result="";
+        StringBuilder result= new StringBuilder();
 
-        for (int i=0; i<10; i++){
-            if(i%2==0)
-             result = result + i + " ";
+        for (int i=0; i<10; i++)
+            if (i % 2 == 0){
+             result.append(" ").append(i);
         }
-        return result;
+        return result.toString();
     }
 
     private void sayHello(String HELLO) {
