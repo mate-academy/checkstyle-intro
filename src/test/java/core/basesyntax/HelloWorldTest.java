@@ -14,6 +14,7 @@ public class HelloWorldTest {
         Assert.assertEquals("Whiskers", cat.getName());
         Assert.assertEquals(3,cat.getAge());
     }
+
     @Test
     public void testDogInitialization() {
         Dog dog = new Dog("Golden Retriever");
