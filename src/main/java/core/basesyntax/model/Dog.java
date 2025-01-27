@@ -1,5 +1,4 @@
 package core.basesyntax.model;
-
 public class Dog {
     private int age;
     private String breed;
@@ -31,10 +30,10 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
-                "age=" + age +
-                ", breed='" + breed + '\'' +
-                ", name='" + name + '\'' +
-                '}';
+        return "Dog{"
+                + "age=" + age
+                + ", breed='" + breed + '\''
+                + ", name='" + name + '\''
+                + '}';
     }
 }

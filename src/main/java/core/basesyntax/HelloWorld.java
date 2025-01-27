@@ -1,11 +1,11 @@
 package core.basesyntax;
 
-import core.basesyntax.model.Dog;
 import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 
 import java.time.LocalDate;
 
-class HelloWorld {
+public class HelloWorld {
     private String message;
     private int year;
     private int age;
@@ -20,15 +20,17 @@ class HelloWorld {
         StringBuilder result = new StringBuilder();
         for (int i = 1; i <= 10; i++) {
             if (i % 2 == 0) {
-                result.append(i).append(" ");
+                result.append(i)
+                        .append(" ");
             }
         }
         return result.toString();
     }
 
     private void sayHello(String greeting) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file." +
-                " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message.");
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the "
+                + "checkstyle in this file. Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` "
+                + "message.");
         System.out.println(greeting);
     }
 
@@ -43,4 +45,3 @@ class HelloWorld {
         System.out.println("The size is " + size);
     }
 }
-
