@@ -4,8 +4,8 @@ import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
-public class HelloWorldTest {
-    private String arg;
+public class HelloWorld {
+    private String argum;
     private int variable;
     private int age;
     private int size;
@@ -34,8 +34,8 @@ public class HelloWorldTest {
     }
 
     private void initializeVariables() {
-        arg = "Hello mates!";
-        System.out.println(arg);
+        argum = "Hello mates!";
+        System.out.println(argum);
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
         age = 25;
