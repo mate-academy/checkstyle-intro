@@ -39,14 +39,10 @@ public class HelloWorld {
         a1 = "Hello mates!";
         System.out.println(a1);
         variable1 = LocalDate.now().getYear();
-        System.out.println("It is "
-                + variable1
-                + "year");
+        System.out.println("It is " + variable1 + "year");
         age = 25;
-        System.out.println("I'm "
-                + age);
+        System.out.println("I'm " + age);
         size = 42;
-        System.out.println("The size is "
-                + size);
+        System.out.println("The size is " + size);
     }
 }
