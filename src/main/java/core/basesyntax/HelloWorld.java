@@ -1,16 +1,14 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Dog;
-import core.basesyntax.Model.Cat;
-
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 import java.time.LocalDate;
-import java.util.Objects;
 
-public class Hello_World {
-    private String a;
-    private int variable;
-    private int age, size;
-
+public class HelloWorld {
+    private String a1;
+    private int variable1;
+    private int age;
+    private int size;
 
     public static void main(String[] args) {
         Dog dog = new Dog();
@@ -22,7 +20,9 @@ public class Hello_World {
 
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
-                result = result + i + " ";
+                result = result
+                        + i
+                        + " ";
             }
         }
         return result;
@@ -36,13 +36,17 @@ public class Hello_World {
     }
 
     private void initializeVariables() {
-        a = "Hello mates!";
-        System.out.println(a);
-        variable = LocalDate.now().getYear();
-        System.out.println("It is " + variable + "year");
+        a1 = "Hello mates!";
+        System.out.println(a1);
+        variable1 = LocalDate.now().getYear();
+        System.out.println("It is "
+                + variable1
+                + "year");
         age = 25;
-        System.out.println("I'm " + age);
+        System.out.println("I'm "
+                + age);
         size = 42;
-        System.out.println("The size is " + size);
+        System.out.println("The size is "
+                + size);
     }
 }
