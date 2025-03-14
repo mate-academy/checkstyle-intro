@@ -1,10 +1,11 @@
-  package core.basesyntax.model;
+package core.basesyntax.model;
 
-  public class Dog {
+public class Dog {
 
     public Dog() {
         System.out.println("Dog created");
     }
 }
+
 
 

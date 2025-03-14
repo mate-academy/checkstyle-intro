@@ -1,11 +1,10 @@
-  package core.basesyntax;
+package core.basesyntax;
 
-  import core.basesyntax.model.Dog;
-  import core.basesyntax.model.Cat;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
+import java.time.LocalDate;
 
-  import java.time.LocalDate;
-
-  public class HelloWorld {
+public class HelloWorld {
 
     public static void main(String[] args) {
         Dog dog = new Dog();
@@ -34,11 +33,17 @@
     private void initializeVariables() {
         String greeting = "Hello mates!";
         System.out.println(greeting);
+
         int year = LocalDate.now().getYear();
         System.out.println("It is " + year + " year");
+
         int age = 25;
         System.out.println("I'm " + age);
+
         int size = 42;
         System.out.println("The size is " + size);
     }
 }
+
+
+
