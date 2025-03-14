@@ -1,6 +1,20 @@
-    package core.basesyntax.Model;
+package core.basesyntax.Model;
 
-    public class Dog {
-       Dog dog = new Dog();
+public class Dog {
+    private String dog;
+
+    public Dog() {
+
+    }
+
+    public String getDog() {
+        return dog;
+    }
+
+    public void setDog(String dog) {
+        this.dog = dog;
+    }
 }
+
+
 

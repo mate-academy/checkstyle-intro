@@ -1,17 +1,15 @@
 package core.basesyntax;
 
-
-import core.basesyntax.Model.Cat;
-import core.basesyntax.Model.Dog;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 
 import java.time.LocalDate;
 
 public class HelloWorld {
 
-    public static void main(String[] args) {
+    public static <Dog, Cat> void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
-
     }
 
     private String getFromOneToTen() {

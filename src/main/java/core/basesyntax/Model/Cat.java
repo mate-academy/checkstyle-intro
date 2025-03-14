@@ -1,25 +1,13 @@
 package core.basesyntax.Model;
 
 public class Cat {
-    private int age;
-    private String name;
-    private String ownerName;
-
-
-    public Cat (int age, String name, String ownerName) {
-        this.age = age;
-        this.name = name;
-        this.ownerName = ownerName;
-    }
-
     public Cat() {
-
+        // конструктор
     }
 
-    @Override
-    public String toString() {
-        return "Cat {" +  "age=" + age + ", name='"
-                + name + '\'' + ", ownerName='" + ownerName + '\'' + '}';
+    public void exampleMethod() {
+        String result = "Hello"
+                + " "
+                + "World";
     }
 }
-
