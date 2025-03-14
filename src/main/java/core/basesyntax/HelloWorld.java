@@ -1,11 +1,11 @@
-package core.basesyntax;
+  package core.basesyntax;
 
-import core.basesyntax.model.Dog;
-import core.basesyntax.model.Cat;
+  import core.basesyntax.model.Dog;
+  import core.basesyntax.model.Cat;
 
-import java.time.LocalDate;
+  import java.time.LocalDate;
 
-public class HelloWorld {
+  public class HelloWorld {
 
     public static void main(String[] args) {
         Dog dog = new Dog();
