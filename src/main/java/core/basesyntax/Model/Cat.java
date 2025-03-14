@@ -6,7 +6,7 @@ public class Cat {
     private String ownerName;
 
 
-    public Cat(int age, String name, String ownerName) {
+    public Cat (int age, String name, String ownerName) {
         this.age = age;
         this.name = name;
         this.ownerName = ownerName;
@@ -18,11 +18,8 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat {" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                '}';
+        return "Cat {" +  "age=" + age + ", name='"
+                + name + '\'' + ", ownerName='" + ownerName + '\'' + '}';
     }
 }
 

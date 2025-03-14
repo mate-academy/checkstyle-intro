@@ -1,6 +1,6 @@
-package core.basesyntax.Model;
+    package core.basesyntax.Model;
 
-public class Dog {
-  Dog dog = new Dog();
+    public class Dog {
+       Dog dog = new Dog();
 }
 
