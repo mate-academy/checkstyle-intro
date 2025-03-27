@@ -1,4 +1,4 @@
-package core.basesyntax.Model;
+package core.basesyntax.model;
 
 public class Cat {
     private final int age;
@@ -12,11 +12,13 @@ public class Cat {
     public String getName() {
         return name;
     }
+
     public int getAge() {
         return age;
     }
+
     @Override
     public String toString() {
-        return  "Cat{name='" + name + "', age=" + age + "}";
+        return "Cat{name='" + name + "', age=" + age + "}";
     }
 }

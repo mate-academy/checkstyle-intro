@@ -1,11 +1,10 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Cat;
-import core.basesyntax.Model.Dog;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 
-public class Hello_World {
+public class HelloWorld {
     public static void main(String[] args) {
-
         Cat cat = new Cat(3, "Whiskers");
         Dog dog = new Dog("Golden Retriever");
         System.out.println(cat);
