@@ -34,12 +34,12 @@ public class HelloWorld {
     }
 
     private void initializeVariables() {
-        String a = "Hello mates!";
-        int variable = LocalDate.now().getYear();
-        int age = 25;
-        int size = 42;
+        word = "Hello mates!";
+        variable = LocalDate.now().getYear();
+        age = 25;
+        size = 42;
 
-        System.out.println(a);
+        System.out.println(word);
         System.out.println("It is " + variable + "year");
         System.out.println("I'm " + age);
         System.out.println("The size is " + size);
