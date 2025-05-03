@@ -5,12 +5,12 @@ public class Cat {
     private String name;
     private String ownerName;
 
+    public Cat() {
+    }
+
     @Override
     public String toString() {
-        return "Cat{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                '}';
+        return "Cat{" +  "age=" + age + ", name='" + name + '\'' +
+                ", ownerName='" + ownerName + '\'' + '}';
     }
 }
