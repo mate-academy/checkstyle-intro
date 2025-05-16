@@ -1,6 +1,5 @@
 import core.basesyntax.model.Cat;
 import core.basesyntax.model.Dog;
-
 import java.time.LocalDate;
 
 public class HelloWorld {
