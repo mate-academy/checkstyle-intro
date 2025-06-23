@@ -11,12 +11,13 @@ public class HelloWorld {
         Cat cat = new Cat();
     }
 
-    private String getFromOneToTen() {
+    public String getFromOneToTen() {
         String result = "";
 
         for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0)
+            if (i % 2 == 0) {
                 result = result + i + " ";
+            }
         }
         return result;
     }
