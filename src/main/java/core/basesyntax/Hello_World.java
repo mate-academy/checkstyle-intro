@@ -34,7 +34,7 @@ public class Hello_World
     }
 
     private void initializeVariables() {
-        a = "Hello mates!";
+        a = "Hello mate!";
         System.out.println(a);
         vARIaBLE = LocalDate.now().getYear();
         System.out.println("It is " + vARIaBLE + "year");
