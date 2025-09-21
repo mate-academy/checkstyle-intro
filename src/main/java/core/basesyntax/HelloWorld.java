@@ -1,5 +1,7 @@
 package core.basesyntax;
 
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -9,8 +11,8 @@ public class HelloWorld {
     private int size;
 
     public static void main(String[] args) {
-        // Тут були класи Dog та Cat, але вони не використовуються, тому їх видалено.
-        // Залишено лише логіку, що була у вашому коді.
+        Dog dog = new Dog();
+        Cat cat = new Cat();
     }
 
     private String getFromOneToTen() {
@@ -24,7 +26,8 @@ public class HelloWorld {
     }
 
     private void sayHello(String hello) {
-        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your task is to fix the checkstyle in this file."
+        System.out.println("Hello, Mate! I am happy to see you! This class looks weird! "
+                + "Your task is to fix the checkstyle in this file."
                 + " Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
