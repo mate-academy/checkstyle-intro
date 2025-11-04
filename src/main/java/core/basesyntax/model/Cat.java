@@ -31,7 +31,7 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat{"
+        return "Dog{"
                 +
                 "age=" + getAge()
                 +
