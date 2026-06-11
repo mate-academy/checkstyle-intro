@@ -1,4 +1,8 @@
-package core.basesyntax.Model;
+package core.basesyntax.model;
 
 public class Dog {
+    @Override
+    public String toString() {
+        return "Dog{}";
+    }
 }
