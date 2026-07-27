@@ -8,6 +8,7 @@ import java.util.Objects;
 
 public class Hello_World
 {
+    // attempted fix, not fully done
     private String a;
     private int vARIaBLE;
     private int age, size;
