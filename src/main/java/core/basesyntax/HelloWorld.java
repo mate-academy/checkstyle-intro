@@ -1,7 +1,5 @@
 package core.basesyntax;
 
-import core.basesyntax.model.Cat;
-import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -11,8 +9,10 @@ public class HelloWorld {
     private int size;
 
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        Cat cat = new Cat();
+        HelloWorld helloWorld = new HelloWorld();
+        helloWorld.initializeVariables();
+        helloWorld.sayHello("Hello Mate!");
+        helloWorld.getFromOneToTen();
     }
 
     private String getFromOneToTen() {
@@ -29,17 +29,17 @@ public class HelloWorld {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your"
                 + " task is to fix the checkstyle in this file. "
                 + "Your goal is to run `mvn clean package` and receive `BUILD SUCCESS` message");
-        System.out.println("Hello World");
+        System.out.println(hello);
     }
 
     private void initializeVariables() {
-        String abc = "Hello World!";
+        abc = "Hello World!";
         System.out.println(abc);
-        int userName = LocalDate.now().getYear();
-        System.out.println("It is " + userName + "year");
-        int age = 25;
+        userName = LocalDate.now().getYear();
+        System.out.println("It is " + userName + " year");
+        age = 25;
         System.out.println("I'm " + age);
-        int size = 42;
+        size = 42;
         System.out.println("The size is " + size);
     }
 }
