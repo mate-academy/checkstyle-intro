@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 public class HelloWorld {
 
-    private String a;
+    private String message;
 
     private int variable;
 
@@ -14,33 +14,33 @@ public class HelloWorld {
 
     private int size;
 
-    public static void main (String[] args) {
-        Dog dog = new Dog ();
-        Cat cat = new Cat ();
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        Cat cat = new Cat();
     }
 
-    private String getFromOneToTen () {
+    private String getFromOneToTen() {
         String result = "";
 
         for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0)
-
-            result = result + i + " ";
+            if (i % 2 == 0) {
+                result = result + i + " ";
+            }
         }
 
         return result;
     }
 
-    private void sayHello (String hello) {
+    private void sayHello(String hello) {
         System.out.println("Hello, Mate! I am happy to see you! This class looks weird! Your "
-            + "task is to fix the checkstyle in this file." + " Your goal is to run `mvn "
+                + "task is to fix the checkstyle in this file." + " Your goal is to run `mvn "
                 + "clean package` and receive `BUILD SUCCESS` message");
         System.out.println(hello);
     }
 
-    private void initializeVariables () {
-        a = "Hello mates!";
-        System.out.println(a);
+    private void initializeVariables() {
+        message = "Hello mates!";
+        System.out.println(message);
 
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + "year");
